@@ -18,20 +18,15 @@ export default function Home() {
     return (
         <div>
             <div className="hero">
-                <h1>The Best Way for Bloggers to <span className="highlight">Get Ideas</span>.</h1>
-                <h2>We help bloggers actually talk to their people.</h2>
+                <h1>The Best Way for YOU to <span className="highlight">Improve</span>.</h1>
+                <h2>We help people connect with knowledgeable life coaches, who also have the help of AI 😱</h2>
                 <a href="#form"><button id="call-to-action"><b>Join the waitlist!</b></button></a>
                 <p>There are currently {waitListMembers} bloggers on the waitlist. 🎉</p>
-                {/* <p>You're early! We're busy building. If you'd like to stay in the loop, join our waitlist.</p> */}
-                <p>(This is not a real thing, just a demo for <a target="_blank" rel="noopener noreferrer" href="https://github.com/jonathancai11/react-landing-page">react-landing-page</a>,
-                a guide on how to deploy this React landing page on Heroku in just 5 minutes!)</p>
             </div>
 
             <div className="hero-image">
                 <img src={heroImage} width="100%" />
             </div>
-
-            <SocialProof />
 
             <section className="details">
                 <p>If you blog, you know how hard it can be to <span className="highlight"><b>come up with ideas for your next post</b></span>.</p>
@@ -69,7 +64,7 @@ export default function Home() {
                 </div>
 
                 <div style={{ display: "inline-block" }} className="built-by-details">
-                    <p>Hi! 👋 &nbsp; I'm <a target="_blank" rel="noopener noreferrer" href="jonathancai.com">Jonathan</a>, and I'm the guy building Panda! Feel free to <a href="mailto:caimjonathan@gmail.com">reach out</a> if you have any questions or concerns.</p>
+                    <p>Hi! 👋 &nbsp; I'm <a target="_blank" rel="noopener noreferrer" href="jonathancai.com">Kevin</a>, and I'm the guy building Reassess! Feel free to <a href="mailto:kevinoconnell42@gmail.com">reach out</a> if you have any questions or concerns.</p>
                 </div>
             </section>
 
