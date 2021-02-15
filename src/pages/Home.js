@@ -19,9 +19,10 @@ export default function Home() {
         <div>
             <div className="hero">
                 <h1>The Best Way for YOU to <span className="highlight">Improve</span>.</h1>
-                <h2>We help people connect with knowledgeable life coaches, who also have the help of AI 😱</h2>
+                <h2>We connect you with knowledgeable life coaches.</h2>
+                <h6>Psst, we also use AI to track how much progress you make😱</h6>
                 <a href="#form"><button id="call-to-action"><b>Join the waitlist!</b></button></a>
-                <p>There are currently {waitListMembers} bloggers on the waitlist. 🎉</p>
+                <p>There are currently {waitListMembers} people like you who want to start improving their lives. 🎉</p>
             </div>
 
             <div className="hero-image">
@@ -29,42 +30,38 @@ export default function Home() {
             </div>
 
             <section className="details">
-                <p>If you blog, you know how hard it can be to <span className="highlight"><b>come up with ideas for your next post</b></span>.</p>
-                <p>You want to ask readers for <span className="highlight"><b>ideas and feedback</b></span>, but they come from so many places like Twitter, backlinks, subscriptions, organic traffic.
-                 Your feedback is scattered across many platforms, communities, and comment sections.</p>
-                <p>For the price of your afternoon coffee <span className="highlight"><b>(4$/month)</b></span>, we help you navigate the mess and aggregate this insight in a digestible way.</p>
-                <p>We <span className="highlight"><b>save you time and energy</b></span> to do what you do best: <span className="highlight"><b>write</b></span>.</p>
+                <p>Mental health is a huge issue in today's world, and while therapy does a great job of identifying what your issue is, many times people are left  <span className="highlight"><b>lost</b></span> due to not knowing how to <span className="highlight"><b>solve their issues</b></span>. </p>
+                <p>On top of this, therapy tends to be <span className="highlight"><b>too expensive</b></span> for anybody who doesn't have insurance. as prices can be over $150 a session.</p>
+                <p>Life coaching takes what therapy is and expands it to  <span className="highlight"><b>look to the future</b></span>. </p>
+                <p>We help you<span className="highlight"><b>navigate the in's and out's  </b></span> of your routine to form <span className="highlight"><b>a better life</b></span>.</p>
             </section>
-
             <section className="features">
-                <Feature gif={ft1} title="See it all." description="We maintain a comprehensive view of all the various viewership channels so you don't have to." direction="left" />
-                <Feature gif={ft2} title="Take notes." description="Based on viewer feedback, plan out your next blog post." direction="right" />
-                <Feature gif={ft3} title="Schedule posts." description="Post weekly? Monthly? Sporadically? Keep your viewers engaged and excited for your content." direction="left" />
+                <Feature gif={ft1} title='"What should I say to this girl?' description="This is one question of many that a life coach can help you with." direction="left" />
+                <Feature gif={ft2} title="What if my life coach isn't avaliable?" description="If your life coach isn't online, our AI life coach named Xero can help you out😊" direction="right" />
             </section>
 
-            {/* <section className="features-list">
+            { <section className="features-list">
                 <div>
-                    <p>✅  A beautiful, powerful editor.</p>
-                    <p>✅  Simple content management.</p>
-                    <p>✅  Email newsletters built-in.</p>
-                    <p>✅  SEO features included automatically.</p>
-                    <p>✅  Publish once, distribute everywhere.</p>
+                    <p>✅  Be connected with a experienced life coach.</p>
+                    <p>✅  Get daily suggestions on how you can accomplish your goals.</p>
+                    <p>✅  Recieve bi-weekly reports on your progress.</p>
+                    <p>✅  Have the worlds best AI (GPT3) at your fingertips.</p>
                 </div>
-            </section> */}
+            </section> }
 
 
             <section id="form" className="form">
-                <iframe title="Google Form" src="https://docs.google.com/forms/d/e/1FAIpQLSfvCK0XfUG4Ps0ZHPbF9EVqXpXnbMjIS8h9S4iC9b_cEVihlQ/viewform?embedded=true" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf71mcGxL8YiS3q0fHT0X4v8BhyiYYiDHlAx4h46OOECJDwjw/viewform?embedded=true" width="640" height="913" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </section>
 
 
             <section className="built-by">
                 <div style={{ display: "inline-block", verticalAlign: "top" }}>
-                    <Image src="https://lh3.googleusercontent.com/ogw/ADGmqu93xHH49ipW6XONZerMD0I4SqmLydVzD1hfbKzK=s64-c-mo" roundedCircle />
+                    <Image src="https://lh3.googleusercontent.com/CXLTAElSppnFvLBrv8NW0EHJInThHk1FkeL4wOD7Rv1yyWmB4a3VG1341TL4QHVOZno8gTJC7VJimIwLEw=s440-rw" roundedCircle width = "75" height = "75" />
                 </div>
 
                 <div style={{ display: "inline-block" }} className="built-by-details">
-                    <p>Hi! 👋 &nbsp; I'm <a target="_blank" rel="noopener noreferrer" href="jonathancai.com">Kevin</a>, and I'm the guy building Reassess! Feel free to <a href="mailto:kevinoconnell42@gmail.com">reach out</a> if you have any questions or concerns.</p>
+                    <p>Hi! 👋&nbsp;my name's<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Kev0Con"> Kevin</a>, I'm the guy building Reassess! Feel free to <a href="mailto:kevinoconnell42@gmail.com">reach out</a> if you have any questions or concerns.</p>
                 </div>
             </section>
 

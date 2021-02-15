@@ -11,7 +11,7 @@ export default function Feature({ title, description, gif, direction }) {
     return <div className="single-feature" id={direction}>
         
         {direction === "left" ? 
-            <div><img src={gif} /></div> : 
+            <div><img src={gif}  /></div> : 
             <div>
                 <p><b>{title}</b></p>
                 <p>{description}</p>

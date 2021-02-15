@@ -5,8 +5,7 @@ export default function Home() {
     return (
         <div className="header">
             <div>
-                <img src={logo} height="60%" />
-                <h1>Panda</h1>
+                <h1>REASSESS</h1>
             </div>
         </div>
     )
