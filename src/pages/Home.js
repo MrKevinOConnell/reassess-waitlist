@@ -51,7 +51,7 @@ export default function Home() {
 
 
             <section id="form" className="form">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf71mcGxL8YiS3q0fHT0X4v8BhyiYYiDHlAx4h46OOECJDwjw/viewform?embedded=true" width="640" height="913" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf71mcGxL8YiS3q0fHT0X4v8BhyiYYiDHlAx4h46OOECJDwjw/viewform?embedded=true" width="640" height="1080" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </section>
 
 
