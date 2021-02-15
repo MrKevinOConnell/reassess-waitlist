@@ -36,7 +36,7 @@ export default function Home() {
                 <p>We help you<span className="highlight"><b>navigate the in's and out's  </b></span> of your routine to form <span className="highlight"><b>a better life</b></span>.</p>
             </section>
             <section className="features">
-                <Feature gif={ft1} title='"What should I say to this girl?' description="This is one question of many that a life coach can help you with." direction="left" />
+                <Feature gif={ft1} title='"What should I say to this girl?' description="This is one of many questions that a life coach can help you with." direction="left" />
                 <Feature gif={ft2} title="What if my life coach isn't avaliable?" description="If your life coach isn't online, our AI life coach named Xero can help you out😊" direction="right" />
             </section>
 
