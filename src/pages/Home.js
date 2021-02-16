@@ -6,11 +6,12 @@ import Feature from '../components/Feature';
 import SocialProof from '../components/SocialProof';
 
 import ft3 from '../assets/ft3.gif';
-
+import me from '../assets/me.jpg';
 
 export default function Home() {
  const ft1 = "https://media.giphy.com/media/3oKIPCg4sXCe4Hqxna/giphy.gif"
  const ft2 = "https://media.giphy.com/media/26n6Wb0bIuuWY0yXK/giphy.gif"
+ 
  const heroImage = "https://lh3.googleusercontent.com/47G_daeEICHNPlrTKxPjZBHu5uV6uKr70HcCTm_oE0XlCt3RZxi3FPqRYonqRgd_ozSwbodo-jB44uzKwkmEUgtNKJtC2zYzV6CJPVHANSO3psVtxTBKuPH0-wOCGGZxm89V3pJZkElBUj9U-iaPJgjBXYQKXbAQCZP7jlLAq-5AYB6THZcv-LKKjMMwktfa7vFOYg69SJPUhANLlgmhZwWYR99d-ocoGip9jiOYrCtoPJJIaK4giV4IQK5K0tXLLMrcFMOguVJkqnQGF-9Cm4piUHwFn9jRc3Gh_g4hY4HtVC7unmbBp3Dyf38KEAu26Vekoy2M07U9sHtTrmdY1apWiUhZctMsLVycpJRHGNimrZi5HwQEwfTIWwNSToIXyQnCeQA51imI2KdJimU-Ip0KYCtGpevkeyQ98iUrn-c0_xAzv-6PXlYUogPEiWYxXmkB-vS6tQY3pc0EHAXJv92K7_sEYjkHOpgtjqIvfLol_Lz29unr6Ektm9YhvgZEqkoAUqgNM8QwrLWj0gPe-Midab1cLefSqudc6NmPueYvKvVKYU22UaqjdL8iCMA432omkE21CcU_Gn9LeLJ1wA6o7YopLvTjI1_lbxgT71fn52g6tjUKBOdaxIBnsmggekm39f27GnZBAHsx4cZQ0ncFmjU2w5vtiPHsOeiT3e52qTEY10eVEMKz_u93Qw=w600-h1299-no?authuser=0"
     let waitListMembers = 12;
 
@@ -56,12 +57,14 @@ export default function Home() {
 
 
             <section className="built-by">
-                <div style={{ display: "inline-block", verticalAlign: "top" }}>
-                    <Image src="https://lh3.googleusercontent.com/CXLTAElSppnFvLBrv8NW0EHJInThHk1FkeL4wOD7Rv1yyWmB4a3VG1341TL4QHVOZno8gTJC7VJimIwLEw=s440-rw" roundedCircle width = "75" height = "75" />
+                <div style={{ display: "inline-block" }}>
+                <div style={{ display: "inline-block", verticalAlign: "middle" }}>
+                    <Image src={me} roundedCircle width = "175" height = "175" />
                 </div>
 
                 <div style={{ display: "inline-block" }} className="built-by-details">
-                    <p>Hi! 👋&nbsp;my name's<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Kev0Con"> Kevin</a>, I'm the guy building Reassess! Feel free to <a href="mailto:kevinoconnell42@gmail.com">reach out</a> if you have any questions or concerns.</p>
+                    <p>Hi!👋&nbsp;my name's<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Kev0Con"> Kevin</a>, I'm the guy building Reassess! Feel free to <a href="mailto:kevinoconnell42@gmail.com">reach out</a> if you have any questions or concerns.</p>
+                </div>
                 </div>
             </section>
 
