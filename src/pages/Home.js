@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Image } from 'react-bootstrap';
-
+import { useMediaQuery } from 'react-responsive'
 import Feature from '../components/Feature';
 import SocialProof from '../components/SocialProof';
 
@@ -15,6 +15,15 @@ export default function Home() {
  const heroImage = "https://lh3.googleusercontent.com/47G_daeEICHNPlrTKxPjZBHu5uV6uKr70HcCTm_oE0XlCt3RZxi3FPqRYonqRgd_ozSwbodo-jB44uzKwkmEUgtNKJtC2zYzV6CJPVHANSO3psVtxTBKuPH0-wOCGGZxm89V3pJZkElBUj9U-iaPJgjBXYQKXbAQCZP7jlLAq-5AYB6THZcv-LKKjMMwktfa7vFOYg69SJPUhANLlgmhZwWYR99d-ocoGip9jiOYrCtoPJJIaK4giV4IQK5K0tXLLMrcFMOguVJkqnQGF-9Cm4piUHwFn9jRc3Gh_g4hY4HtVC7unmbBp3Dyf38KEAu26Vekoy2M07U9sHtTrmdY1apWiUhZctMsLVycpJRHGNimrZi5HwQEwfTIWwNSToIXyQnCeQA51imI2KdJimU-Ip0KYCtGpevkeyQ98iUrn-c0_xAzv-6PXlYUogPEiWYxXmkB-vS6tQY3pc0EHAXJv92K7_sEYjkHOpgtjqIvfLol_Lz29unr6Ektm9YhvgZEqkoAUqgNM8QwrLWj0gPe-Midab1cLefSqudc6NmPueYvKvVKYU22UaqjdL8iCMA432omkE21CcU_Gn9LeLJ1wA6o7YopLvTjI1_lbxgT71fn52g6tjUKBOdaxIBnsmggekm39f27GnZBAHsx4cZQ0ncFmjU2w5vtiPHsOeiT3e52qTEY10eVEMKz_u93Qw=w600-h1299-no?authuser=0"
     let waitListMembers = 12;
 
+const Desktop = ({ children }) => {
+  const isDesktop = useMediaQuery({ minWidth: 601 })
+  return isDesktop ? children : null
+}
+const Mobile = ({ children }) => {
+
+  const isMobile = useMediaQuery({ maxWidth: 600 })
+  return isMobile ? children : null
+}
     return (
         <div>
             <div className="hero">
@@ -59,7 +68,8 @@ export default function Home() {
             <section className="built-by">
                 <div style={{ display: "inline-block" }}>
                 <div style={{ display: "inline-block", verticalAlign: "middle" }}>
-                    <Image src={me} roundedCircle width = "175" height = "175" />
+                    <Mobile><Image src={me} roundedCircle width = "75" height = "75" /> </Mobile>
+                    <Desktop><Image src={me} roundedCircle width = "175" height = "175" /></Desktop>
                 </div>
 
                 <div style={{ display: "inline-block" }} className="built-by-details">
