@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 import { Alert } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import HttpsRedirect from 'react-https-redirect'
 import './App.css';
 
 
@@ -18,6 +18,7 @@ function App() {
   let daysUntilDealEnds = Math.floor((dealExpirationDate.getTime() - today.getTime()) / (1000*60*60*24));
 
   return (
+    <HttpsRedirect>
     <div className="App">
       {<Alert variant="danger" show={show && (daysUntilDealEnds > -1)} onClose={() => setShow(false)} dismissible style={{textAlign: "center"}}>
         <p style={{display:"inline-block", margin: 0}}><Alert.Link href="#form">Join the waitlist</Alert.Link> for 25% off your first month! ({daysUntilDealEnds} days until this deal expires)</p>
@@ -26,6 +27,7 @@ function App() {
       <Home />
       <Footer />
     </div>
+    </HttpsRedirect>
   );
 }
 
