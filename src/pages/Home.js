@@ -5,14 +5,13 @@ import { Image } from 'react-bootstrap';
 import Feature from '../components/Feature';
 import SocialProof from '../components/SocialProof';
 
-import heroImage from '../assets/hero-img.png';
-import ft1 from '../assets/ft1.gif';
-import ft2 from '../assets/ft2.gif';
 import ft3 from '../assets/ft3.gif';
 
 
 export default function Home() {
-
+ const ft1 = "https://media.giphy.com/media/3oKIPCg4sXCe4Hqxna/giphy.gif"
+ const ft2 = "https://media.giphy.com/media/26n6Wb0bIuuWY0yXK/giphy.gif"
+ const heroImage = "https://lh3.googleusercontent.com/47G_daeEICHNPlrTKxPjZBHu5uV6uKr70HcCTm_oE0XlCt3RZxi3FPqRYonqRgd_ozSwbodo-jB44uzKwkmEUgtNKJtC2zYzV6CJPVHANSO3psVtxTBKuPH0-wOCGGZxm89V3pJZkElBUj9U-iaPJgjBXYQKXbAQCZP7jlLAq-5AYB6THZcv-LKKjMMwktfa7vFOYg69SJPUhANLlgmhZwWYR99d-ocoGip9jiOYrCtoPJJIaK4giV4IQK5K0tXLLMrcFMOguVJkqnQGF-9Cm4piUHwFn9jRc3Gh_g4hY4HtVC7unmbBp3Dyf38KEAu26Vekoy2M07U9sHtTrmdY1apWiUhZctMsLVycpJRHGNimrZi5HwQEwfTIWwNSToIXyQnCeQA51imI2KdJimU-Ip0KYCtGpevkeyQ98iUrn-c0_xAzv-6PXlYUogPEiWYxXmkB-vS6tQY3pc0EHAXJv92K7_sEYjkHOpgtjqIvfLol_Lz29unr6Ektm9YhvgZEqkoAUqgNM8QwrLWj0gPe-Midab1cLefSqudc6NmPueYvKvVKYU22UaqjdL8iCMA432omkE21CcU_Gn9LeLJ1wA6o7YopLvTjI1_lbxgT71fn52g6tjUKBOdaxIBnsmggekm39f27GnZBAHsx4cZQ0ncFmjU2w5vtiPHsOeiT3e52qTEY10eVEMKz_u93Qw=w600-h1299-no?authuser=0"
     let waitListMembers = 12;
 
     return (
@@ -20,14 +19,15 @@ export default function Home() {
             <div className="hero">
                 <h1>The Best Way for YOU to <span className="highlight">Improve</span>.</h1>
                 <h2>We connect you with knowledgeable life coaches.</h2>
-                <h6>Psst, we also use AI to track how much progress you make😱</h6>
                 <a href="#form"><button id="call-to-action"><b>Join the waitlist!</b></button></a>
                 <p>There are currently {waitListMembers} people like you who want to start improving their lives. 🎉</p>
             </div>
 
             <div className="hero-image">
-                <img src={heroImage} width="100%" />
+                <img src={heroImage} width="25%"  />
+                
             </div>
+<h6 style= {{textAlign: "center"}}> Disclaimer: This isn't an actual conversation, this is just the creator of Reassess (Kevin) talking to himself🤣</h6>
 
             <section className="details">
                 <p>Mental health is a huge issue in today's world, and while therapy does a great job of identifying what your issue is, many times people are left  <span className="highlight"><b>lost</b></span> due to not knowing how to <span className="highlight"><b>solve their issues</b></span>. </p>

@@ -199,22 +199,10 @@ s {
   }
 
   .hero-image {
-    position: relative;
-    text-align: center;
-    margin: 0 auto;
-    overflow: hidden;
-    height: 58vh;
+  display: flex;
+  justify-content: center;
   }
 
-  .hero-image>img {
-    position: absolute;
-    top: -9850px;
-    bottom: -9999px;
-    left: -9700px;
-    right: -9999px;
-    margin: auto;
-    width: 200%;
-  }
 
   .hero {
     margin: 0px 7vw 0px 7vw;
