@@ -16,12 +16,12 @@ export default function Home() {
     let waitListMembers = 12;
 
 const Desktop = ({ children }) => {
-  const isDesktop = useMediaQuery({ minWidth: 601 })
+  const isDesktop = useMediaQuery({ minWidth: "601px" })
   return isDesktop ? children : null
 }
 const Mobile = ({ children }) => {
 
-  const isMobile = useMediaQuery({ maxWidth: 600 })
+  const isMobile = useMediaQuery({ maxWidth: "600px" })
   return isMobile ? children : null
 }
     return (
