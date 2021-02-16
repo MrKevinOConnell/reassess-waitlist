@@ -5,7 +5,7 @@ import { Image } from 'react-bootstrap';
 import Feature from '../components/Feature';
 import SocialProof from '../components/SocialProof';
 
-import ft3 from '../assets/ft3.gif';
+import texts from '../assets/texts.png';
 import me from '../assets/me.jpg';
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
             </div>
 
             <div className="hero-image">
-                <img src={heroImage} width="40%"  />
+                <img src={texts} width="40%"  />
                 
             </div>
 <h6 style= {{textAlign: "center"}}> Disclaimer: This isn't an actual conversation, this is just the creator of Reassess (Kevin) talking to himself🤣</h6>
