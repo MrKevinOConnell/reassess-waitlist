@@ -46,7 +46,7 @@ export default function Home() {
                     <p>✅  Be connected with a experienced life coach.</p>
                     <p>✅  Get daily suggestions on how you can accomplish your goals.</p>
                     <p>✅  Recieve bi-weekly reports on your progress.</p>
-                    <p>✅  Have the worlds best AI (GPT3) at your fingertips.</p>
+                    <p>✅  Have the world's best AI (GPT3) at your fingertips.</p>
                 </div>
             </section> }
 
