@@ -212,6 +212,13 @@ s {
     width: 100%;
 }
 
+ .features {
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%;
+}
+
   .hero {
     margin: 0px 7vw 0px 7vw;
     text-align: center;
