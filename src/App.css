@@ -204,23 +204,13 @@ s {
     font-size: 20px;
   }
 
- .hero-image {
-    position: relative;
-    text-align: center;
-    margin: 0 auto;
-    overflow: hidden;
-    height: 58vh;
-  }
 
-   .hero-image>img {
-    position: absolute;
-    top: -9850px;
-    bottom: -9999px;
-    left: -9700px;
-    right: -9999px;
-    margin: auto;
+  img {
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
     width: 100%;
-  }
+}
 
   .hero {
     margin: 0px 7vw 0px 7vw;
