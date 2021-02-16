@@ -227,11 +227,9 @@ s {
     display: none;
   }
 
-  .built-by {
-  text-align: center;
-  width: 50%;
-  height: 50%;
-  margin: 5vw;
+  Image {
+  display: block;
+  margin: 0 auto;
   }
   section#form {
     margin: 0 auto;
