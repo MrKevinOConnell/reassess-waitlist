@@ -38,7 +38,7 @@ export default function Home() {
             </section>
             <section className="features">
                 <Feature gif={ft1} title='"What should I say to this guy?' description="This is one of many questions that a life coach can help you with." direction="left" />
-                <Feature gif={ft2} title="What if my life coach isn't avaliable?" description="If your life coach isn't online, our AI life coach named Xero can help you out😊" direction="right" />
+                <Feature gif={ft2} title="What if my life coach isn't available?" description="If your life coach isn't online, our AI life coach named Xero can help you out😊" direction="right" />
             </section>
 
             { <section className="features-list">
