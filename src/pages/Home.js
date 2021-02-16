@@ -24,7 +24,7 @@ export default function Home() {
             </div>
 
             <div className="hero-image">
-                <img src={heroImage} width="25%"  />
+                <img src={heroImage} width="40%"  />
                 
             </div>
 <h6 style= {{textAlign: "center"}}> Disclaimer: This isn't an actual conversation, this is just the creator of Reassess (Kevin) talking to himself🤣</h6>
