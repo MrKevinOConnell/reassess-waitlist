@@ -222,15 +222,17 @@ s {
     height: 100%;
   }
 
-  .single-feature>div {
-    width: unset;
-    display: unset;
-  }
 
   .single-feature#right {
     display: none;
   }
 
+  .built-by {
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  margin: 5vw;
+  }
   section#form {
     margin: 0 auto;
     text-align: center;
