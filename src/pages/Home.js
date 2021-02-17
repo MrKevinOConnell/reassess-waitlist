@@ -59,7 +59,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' })
             <section className="built-by">
                 <div style={{ display: "inline-block" }}>
                 <div style={{ display: "inline-block", verticalAlign: "middle" }}>
-                    <Image src={me} roundedCircle responsive width = "175" height = "175" />
+                    <Image src={me} roundedCircle fluid width = "175px" height = "175px" />
                 </div>
 
                 <div style={{ display: "inline-block" }} className="built-by-details">
